@@ -30,9 +30,9 @@
 
 **Position:  SDE (Backend),  Team: MiLive,  Major Language: C/C++ **
 
-### Payment System of MiLive
+### Revenue System of MiLive
 
-直播营收类项目，包括充值、打赏、分成、提现、红包、1V1付费聊天和风险控制等一系列核心项目。本人于2016年8月加入小米之后，就参与到直播营收类项目的开发中，并在2018年初成为该项目的负责人。目前带有两人的团队。在工作期间，主要负责：
+The revenue system is the general term for a series of core projects in MiLive, including recharge & purchase & withdraw & redenvelop & one-by-one pay chat & risk control and so on. I have been working on these projects since I joined Xiaomi on 2016.08, and been in charge of the revenue system from earlier this year. Now I am the leadership of a team which contains two developer. I am responsible for,
 
 - 接入国内外主流第三方充值服务10余种；重构整个充值服务，提高充值成功率。
 - 优化商城的架构，提高打赏和分成的成功率；并支持更多的消费模式。
