@@ -34,21 +34,22 @@
 
 The revenue system is the general term for a series of core projects in MiLive, including recharge & purchase & withdraw & redenvelop & one-by-one pay chat & risk control and so on. I have been working on these projects since I joined Xiaomi on 2016.08, and been in charge of the revenue system from earlier this year. Now I am the leadership of a team which contains two developer. I am responsible for,
 
-- 接入国内外主流第三方充值服务10余种；重构整个充值服务，提高充值成功率。
-- 优化商城的架构，提高打赏和分成的成功率；并支持更多的消费模式。
-- 设计实现红包、1V1付费聊天等新业务功能；通过不断优化红包服务，解决抢红包的高并发问题，优化红包用户体验。
-- 营收类项目的微服务化改造。服务化改造之后，能够支持接入不同APP，对部门的其他产品线提供营收类服务。
-- 建立针对各个核心营收业务模块的监控。能够做到实时成功率监控；每日还有订单级别的失败订单汇总。
+- Accessing more than 10 kinds of popular third-party financial services in China and aboard; Refactoring the architecture of recharge service, which improved the success rate significantly.
+- Optimizing the architecture of mall service, making services more reliable.
+- Designing and implementing new services, such as red-envelope & one-by-one-pay-chat;  Optimizing continuously to make these services more high availability.
+- Reform entire revenue system, turning into mircoservices architecture. Other apps of our business group could access these financial services insteal of building their own. The new revenue system support safety isolation.
+- Setting up monitoring for each core revenue system module, could monitor the real-time success rate.
 
-在这段工作经历中，通过摸索总结出了一套适用于营收类项目的业务模型。该模型能够有效提高业务成功率，提高每日对账效率。在正式成为项目负责人之后，通过规范开发流程和整理沉淀过往经验，使项目质量有显著提高；到目前为止线上与营收相关的BUG数为0。
+In this work experience, I have summed up a set of business models suitable for revenue proejcts. This model can effectively improve business success rate and increase the efficiency of verifying daily statement of account. After becoming the project leader, by standardizing the development process and sorting out the past experience, we improve the project quality significantly. There is ZERO online-bugs about core revenue projects until now. 
 
 ### Message System of MiLive 
 
-直播消息系统，包括直播间内弹幕、系统通知、服务器下行push和应用内IM等一系列核心项目。于2018年初接手负责直播消息系统。接手之后，主要做了以下工作：
+Message system includes living-room-message & system-notification & downstream-push and IM etc. I took charge of the message system in the beginning of this year. From that time on, my efforts center on these four jobs:
 
-- 改造应用内IM（私信）；实现服务器保存历史消息，支持聊天记录漫游；客户端通过推拉结合的方式获取未读消息，提高消息到达成功率；做到新老IM系统消息互通，对用户无感，支持平滑过渡。
-- 梳理消息系统，加强对关键节点、服务的监控。
-- 完善消息系统文档，方便内部学习和减少对外提供服务的沟通成本。
+- Reforming the IM in app, making the IM service have the ability to save historical chat message and support chat record roaming. 
+- Implementing the function which supports the client to get unread messages either by pushing or by pulling, increasing messages arrival rate. 
+- Strengthening the monitoring of pivotal nodes and services.
+- Prefecting the documentation of message system.
 
 ### Live Message Anti-Spam
 
