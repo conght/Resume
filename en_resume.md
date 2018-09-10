@@ -53,7 +53,7 @@ Message system includes living-room-message & system-notification & downstream-p
 
 ### Live Message Anti-Spam
 
-为了解决房间内弹幕和私信中的垃圾文本问题，在调研了目前主流的解决方法之后：通过使用google开源的机器学习框架TensorFlow，融合了几种深度学习模型TextCNN等，基于实际的线上数据集，训练出了一套能够识别垃圾文本的模型。模型支持识别垃圾文本，还能够对垃圾文本进行分类。具体分类如涉政或广告等。模型的最高准确率可达96%。
+For solving the problem of garbage text, I surveyed the main current solutions. 通过使用google开源的机器学习框架TensorFlow，融合了几种深度学习模型TextCNN等，基于实际的线上数据集，训练出了一套能够识别垃圾文本的模型。模型支持识别垃圾文本，还能够对垃圾文本进行分类。具体分类如涉政或广告等。模型的最高准确率可达96%。
 
 ## ICBC Software Development Center  (2015.7 - 2016.8)
 
